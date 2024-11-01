@@ -1,0 +1,310 @@
+.button,.wcc-input,.wcc-my-btn,.wrap input,.wrap select,.wrap textarea,.wrap checkbox{
+    border-radius: 0 !important;
+}
+.button-primary.button,.wcc-my-btn-danger.button{
+    padding: 10px 15px !important;
+    line-height: 1 !important;
+    font-size: 15px !important;
+}
+.wcc-a-tag{
+    text-decoration: none;
+    margin: 10px 0;
+    display: block;
+}
+.wcc-mt-0{
+    margin-top: 0px;
+}
+.wcc-mt-15{
+    margin-top: 15px;
+}
+.wcc-card{
+    background: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #c3c4c7
+}
+.wcc-card-title{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.wcc-table{
+    border: 1px solid #c3c4c7;
+    width: 100%;
+    border-spacing: 0;
+}
+.wcc-table tr th{
+    padding: 20px;
+    border: 0;
+    text-align: left;
+}
+
+.wcc-table thead tr th{
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.wcc-table tbody tr:nth-of-type(odd){
+    background: #f9f9f9;
+}
+.wcc-table tbody tr:nth-of-type(even){
+    background: #ffffff;
+}
+.wcc-table tfoot tr th{
+    border-top: 1px solid #c3c4c7;
+}
+.wcc-table tr th:last-child{
+    border-left: 1px solid #c3c4c7;
+}
+.wcc-table tr td{
+    padding: 20px;
+    border: 0;
+    text-align: left;
+}
+.wcc-table tr td:last-child{
+    border-left: 1px solid #c3c4c7;
+}
+.wcc-action-btn{
+    text-decoration: none;
+}
+.wcc-input {
+    padding: 5px 15px !important;
+    width: 100%;
+    max-width: 100% !important;
+    border: 1px solid #dcdfe6 !important;
+}
+
+.wcc-input:hover {
+    border-color: #c0c4cc !important;
+    outline: 0;
+}
+
+.wcc-input:focus {
+    border: 1px solid;
+    border-color: #2271b1 !important;
+    outline: 0;
+    box-shadow: unset !important;
+}
+
+.switch-wrapper {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    justify-content: start;
+    align-items: center;
+}
+
+.wcc-switch {
+    width: 310px
+}
+
+.switch-helpTip {
+    margin-left: -3px
+}
+
+.wcc-switch:checked+label.blue {
+    background: #6ea8d6
+}
+
+.wcc-switch:checked+label.blue:after {
+    background: #2271b1
+}
+
+.wcc-switch:checked+label.green {
+    background: #abe16d
+}
+
+.wcc-switch:checked+label.green:after {
+    background: #8bc34a
+}
+
+.wcc-switch:checked+label:after {
+    left: calc(100% - 18px)
+}
+
+.wcc-switch+label {
+    background: #ddd;
+    border-radius: 20px
+}
+
+.wcc-switch+label:after {
+    background: #fff;
+    border-radius: 50%;
+    height: 16px;
+    left: 2px;
+    top: 2px;
+    width: 16px
+}
+
+.wcc-switch-control input {
+    display: none
+}
+
+.wcc-switch-control input+label {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    width: 40px
+}
+
+.wcc-switch-control input+label:after,.wcc-switch-control input+label:before {
+    content: "";
+    cursor: pointer;
+    display: block;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
+
+.wcc-switch-control input:checked+label.blue {
+    background: #6ea8d6
+}
+
+.wcc-switch-control input:checked+label.blue:after {
+    background: #2271b1
+}
+
+.wcc-switch-control input:checked+label.blue.disable,.wcc-switch-control input:checked+label.blue.disable:after {
+    cursor: not-allowed
+}
+
+.wcc-switch-control input:checked+label.green {
+    background: #abe16d
+}
+
+.wcc-switch-control input:checked+label.green:after {
+    background: #8bc34a
+}
+
+.wcc-switch-control input:checked+label.green.disable,.wcc-switch-control input:checked+label.green.disable:after {
+    cursor: not-allowed
+}
+
+.nta-tele-switch-control input:checked+label:after {
+    left: calc(100% - 18px)
+}
+
+.wcc-switch-control input+label {
+    background: #ddd;
+    border-radius: 20px
+}
+
+.wcc-switch-control input+label:after {
+    background: #fff;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px
+}
+.wcc-action-btn:hover,.wcc-action-btn:focus{
+    box-shadow: unset;
+    outline: unset;
+}
+.wcc-link{
+    text-decoration: none;
+}
+.wcc-link:hover,.wcc-link:focus{
+    box-shadow: unset;
+    outline: unset;
+}
+.wcc-my-btn{
+    padding: 10px 16px !important;
+    line-height: 1 !important;
+    font-size: 14px !important;
+}
+
+.wcc-text-center{
+  text-align: center !important;
+}
+.wcc_success_message{
+    font-size: 14px;
+    color: #4caf50;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.wcc_error_message{
+    font-size: 14px;
+    color: #F44336;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.wcc-my-btn{
+    padding: 8px 10px !important;
+    height: auto !important;
+    font-size: 13px !important;
+    line-height: 1 !important;
+    min-height: unset;
+}
+.wcc-my-btn-danger {
+    background: #f44336 !important;
+    border-color: #f44336 !important;
+    /* border-radius: 3px; */
+    color: #fff !important;
+    /* text-decoration: none; */
+}
+.wcc-my-btn-danger:hover,.wcc-my-btn-danger:focus {
+    background: #f44336 !important;
+    border-color: #f44336 !important;
+    /* border-radius: 3px; */
+    color: #fff !important;
+    /* text-decoration: none; */
+}
+.wcc-my-btn-danger:hover,.wcc-my-btn-danger:focus{
+    background: #f44336;
+    border-color: #f44336;
+    color: #fff;
+}
+.wcc-text-right{
+    text-align: right;
+}
+.wcc-text-danger{
+    color: #f44336;
+}
+.wcc-text-danger:hover{
+    color: #f44336;
+}
+.button-default .dashicons{
+    vertical-align: middle;
+}
+.removeMaping{
+    cursor: pointer;
+}
+.maping_fields .form-table th{
+    padding: 20px 10px 20px 10px;
+}
+.maping_fields .form-table thead tr:first-child{
+    background: #ddd;
+}
+.maping_fields .wcc-card{
+    padding: 0;
+}
+@media(max-width: 396px) {
+    .switch-wrapper {
+        width:250px
+    }
+}
+.vx_pro_version {
+    margin: 30px 0 30px 0px !important;
+}
+.vx_pro_version p{
+    display: flex;
+}
+.vx_pro_version p i{
+    margin-right: 10px;
+}
+.vx_pro_version .button{
+    margin: 15px 0 15px 30px;
+}
+.wcc-table tr td:last-child {
+    border-left: 0; 
+}
